@@ -1,0 +1,10 @@
+{
+  "watch": ["src"],
+  "ext": "mjs,js,json",
+  "ignore": ["node_modules"],
+  "execMap": {
+    "mjs": "node -r sucrase/register"
+  }
+} 
+
+
